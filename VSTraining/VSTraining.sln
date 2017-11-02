@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIApplication", "UIApplication\UIApplication.csproj", "{A81345DA-55A5-497D-9F59-15E7D4B15686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLib", "DataAccessLib\DataAccessLib.csproj", "{BA3C5962-6545-4F66-B6E8-EE69C0F2718D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81345DA-55A5-497D-9F59-15E7D4B15686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81345DA-55A5-497D-9F59-15E7D4B15686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81345DA-55A5-497D-9F59-15E7D4B15686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81345DA-55A5-497D-9F59-15E7D4B15686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3C5962-6545-4F66-B6E8-EE69C0F2718D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3C5962-6545-4F66-B6E8-EE69C0F2718D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3C5962-6545-4F66-B6E8-EE69C0F2718D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3C5962-6545-4F66-B6E8-EE69C0F2718D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
