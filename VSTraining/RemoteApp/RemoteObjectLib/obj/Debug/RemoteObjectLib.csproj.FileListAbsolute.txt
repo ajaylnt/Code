@@ -1,0 +1,5 @@
+C:\Code\VSTraining\RemoteApp\RemoteObjectLib\bin\Debug\RemoteObjectLib.dll
+C:\Code\VSTraining\RemoteApp\RemoteObjectLib\bin\Debug\RemoteObjectLib.pdb
+C:\Code\VSTraining\RemoteApp\RemoteObjectLib\obj\Debug\RemoteObjectLib.csprojResolveAssemblyReference.cache
+C:\Code\VSTraining\RemoteApp\RemoteObjectLib\obj\Debug\RemoteObjectLib.dll
+C:\Code\VSTraining\RemoteApp\RemoteObjectLib\obj\Debug\RemoteObjectLib.pdb

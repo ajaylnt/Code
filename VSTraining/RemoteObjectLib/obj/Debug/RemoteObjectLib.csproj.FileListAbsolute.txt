@@ -1,0 +1,6 @@
+C:\Code\VSTraining\RemoteObjectLib\bin\Debug\RemoteObjectLib.exe.config
+C:\Code\VSTraining\RemoteObjectLib\bin\Debug\RemoteObjectLib.exe
+C:\Code\VSTraining\RemoteObjectLib\bin\Debug\RemoteObjectLib.pdb
+C:\Code\VSTraining\RemoteObjectLib\obj\Debug\RemoteObjectLib.csprojResolveAssemblyReference.cache
+C:\Code\VSTraining\RemoteObjectLib\obj\Debug\RemoteObjectLib.exe
+C:\Code\VSTraining\RemoteObjectLib\obj\Debug\RemoteObjectLib.pdb

@@ -1,0 +1,6 @@
+C:\Code\VSTraining\TestService\bin\Debug\TestService.exe.config
+C:\Code\VSTraining\TestService\bin\Debug\TestService.exe
+C:\Code\VSTraining\TestService\bin\Debug\TestService.pdb
+C:\Code\VSTraining\TestService\obj\Debug\TestService.csprojResolveAssemblyReference.cache
+C:\Code\VSTraining\TestService\obj\Debug\TestService.exe
+C:\Code\VSTraining\TestService\obj\Debug\TestService.pdb

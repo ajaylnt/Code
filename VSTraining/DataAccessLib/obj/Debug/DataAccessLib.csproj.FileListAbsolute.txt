@@ -1,0 +1,6 @@
+C:\Code\VSTraining\DataAccessLib\bin\Debug\DataAccessLib.dll.config
+C:\Code\VSTraining\DataAccessLib\bin\Debug\DataAccessLib.dll
+C:\Code\VSTraining\DataAccessLib\bin\Debug\DataAccessLib.pdb
+C:\Code\VSTraining\DataAccessLib\obj\Debug\DataAccessLib.csprojResolveAssemblyReference.cache
+C:\Code\VSTraining\DataAccessLib\obj\Debug\DataAccessLib.dll
+C:\Code\VSTraining\DataAccessLib\obj\Debug\DataAccessLib.pdb
