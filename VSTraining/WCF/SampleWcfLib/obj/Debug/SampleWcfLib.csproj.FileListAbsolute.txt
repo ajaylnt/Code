@@ -3,3 +3,4 @@ C:\Code\VSTraining\WCF\SampleWcfLib\bin\Debug\SampleWcfLib.dll
 C:\Code\VSTraining\WCF\SampleWcfLib\bin\Debug\SampleWcfLib.pdb
 C:\Code\VSTraining\WCF\SampleWcfLib\obj\Debug\SampleWcfLib.dll
 C:\Code\VSTraining\WCF\SampleWcfLib\obj\Debug\SampleWcfLib.pdb
+C:\Code\VSTraining\WCF\SampleWcfLib\obj\Debug\SampleWcfLib.csprojResolveAssemblyReference.cache
