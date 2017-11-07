@@ -1,0 +1,9 @@
+﻿********************Employee Info System********************
+TO VIEW ALL EMPLOYEES ====>PRESS 1
+TO FIND ALL EMPLOYEE =====>PRESS 2
+TO ADD NEW EMPLOYEE  =====>PRESS 3
+TO DELETE AN EMPLOYEE=====>PRESS 4
+TO UPDATE AN EMPLOYEE=====>PRESS 5
+
+PRESS ANY KEY TO EXIT
+************************************************************

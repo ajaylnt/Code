@@ -8,18 +8,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WCFClientApp.MyServiceref {
+namespace WCFClientApp.myservices {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="MyServiceref.IEmpService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="myservices.IEmpService")]
     public interface IEmpService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpService/GetAllEmployees", ReplyAction="http://tempuri.org/IEmpService/GetAllEmployeesResponse")]
-        Employee[] GetAllEmployees();
+        System.Collections.Generic.List<Employee> GetAllEmployees();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpService/GetAllEmployees", ReplyAction="http://tempuri.org/IEmpService/GetAllEmployeesResponse")]
-        System.Threading.Tasks.Task<Employee[]> GetAllEmployeesAsync();
+        System.Threading.Tasks.Task<System.Collections.Generic.List<Employee>> GetAllEmployeesAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpService/AddNewEmployee", ReplyAction="http://tempuri.org/IEmpService/AddNewEmployeeResponse")]
         bool AddNewEmployee(Employee emp);
@@ -40,19 +40,19 @@ namespace WCFClientApp.MyServiceref {
         System.Threading.Tasks.Task<bool> UpdateEmployeeAsync(Employee emp);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpService/GetAllDepartments", ReplyAction="http://tempuri.org/IEmpService/GetAllDepartmentsResponse")]
-        Dept[] GetAllDepartments();
+        System.Collections.Generic.List<Dept> GetAllDepartments();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmpService/GetAllDepartments", ReplyAction="http://tempuri.org/IEmpService/GetAllDepartmentsResponse")]
-        System.Threading.Tasks.Task<Dept[]> GetAllDepartmentsAsync();
+        System.Threading.Tasks.Task<System.Collections.Generic.List<Dept>> GetAllDepartmentsAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IEmpServiceChannel : WCFClientApp.MyServiceref.IEmpService, System.ServiceModel.IClientChannel {
+    public interface IEmpServiceChannel : WCFClientApp.myservices.IEmpService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class EmpServiceClient : System.ServiceModel.ClientBase<WCFClientApp.MyServiceref.IEmpService>, WCFClientApp.MyServiceref.IEmpService {
+    public partial class EmpServiceClient : System.ServiceModel.ClientBase<WCFClientApp.myservices.IEmpService>, WCFClientApp.myservices.IEmpService {
         
         public EmpServiceClient() {
         }
@@ -73,11 +73,11 @@ namespace WCFClientApp.MyServiceref {
                 base(binding, remoteAddress) {
         }
         
-        public Employee[] GetAllEmployees() {
+        public System.Collections.Generic.List<Employee> GetAllEmployees() {
             return base.Channel.GetAllEmployees();
         }
         
-        public System.Threading.Tasks.Task<Employee[]> GetAllEmployeesAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Employee>> GetAllEmployeesAsync() {
             return base.Channel.GetAllEmployeesAsync();
         }
         
@@ -105,11 +105,11 @@ namespace WCFClientApp.MyServiceref {
             return base.Channel.UpdateEmployeeAsync(emp);
         }
         
-        public Dept[] GetAllDepartments() {
+        public System.Collections.Generic.List<Dept> GetAllDepartments() {
             return base.Channel.GetAllDepartments();
         }
         
-        public System.Threading.Tasks.Task<Dept[]> GetAllDepartmentsAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Dept>> GetAllDepartmentsAsync() {
             return base.Channel.GetAllDepartmentsAsync();
         }
     }

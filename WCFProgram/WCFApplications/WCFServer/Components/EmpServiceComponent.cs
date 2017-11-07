@@ -71,6 +71,8 @@ namespace WCFServer.Components
                            EmpAddress = emp.EmpAddress,
                            EmpSalary = emp.EmpSalary
                        }; // Dept is Nullable Type
+            //if (data.Count() > 5)
+                //throw new Exception("Too Many Employees");
             return data.ToList();
         }
 

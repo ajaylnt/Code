@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C16A2DDA-702A-47AA-B6C6-A1ADC1098FD2}</ProjectGuid>
+    <ProjectGuid>{AEF3073C-E860-4DEB-A427-E457A898E28A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WCFClientApp</RootNamespace>
-    <AssemblyName>WCFClientApp</AssemblyName>
+    <RootNamespace>DelegatesDemo</RootNamespace>
+    <AssemblyName>DelegatesDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,8 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,47 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\myservices\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Properties\DataSources\Dept.datasource" />
-    <None Include="Properties\DataSources\Employee.datasource" />
-    <None Include="Service References\myservices\service.wsdl" />
-    <None Include="Service References\myservices\service.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\myservices\service1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\myservices\service2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WCFServer\WCFServer.csproj">
-      <Project>{c8143cec-0dd6-4509-a040-1ce581613b72}</Project>
-      <Name>WCFServer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Menu.txt" />
-    <None Include="Service References\myservices\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Service References\myservices\configuration.svcinfo" />
-    <None Include="Service References\myservices\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\myservices\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

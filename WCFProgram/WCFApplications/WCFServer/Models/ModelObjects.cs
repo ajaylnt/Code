@@ -13,6 +13,13 @@ public class Employee
     public int EmpSalary { get; set; }
     [DataMember]
     public int DeptID { get; set; }
+
+    //When U want to modify the base class function in ur Derived class,
+    //then U could override them.
+    public override string ToString()
+    {
+        return base.ToString();
+    }
 }
 [DataContract]
 public class Dept
