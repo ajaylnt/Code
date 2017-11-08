@@ -84,6 +84,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="LambdaExpressions.cs" />
     <Compile Include="ViewModels\EmployeeVM.cs" />
     <Compile Include="WcfMathClient.xaml.cs">
       <DependentUpon>WcfMathClient.xaml</DependentUpon>
